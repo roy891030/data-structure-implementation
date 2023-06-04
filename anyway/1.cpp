@@ -55,7 +55,7 @@ public:
 int main() {
     Stack stack;
 
-    stack.push(1);
+    stack.push(66);
     stack.push(2);
     stack.push(3);
 
@@ -64,6 +64,12 @@ int main() {
 
     stack.pop();
     std::cout << "Top element after pop: " << stack.top() << std::endl;
-
+    stack.pop();
+    std::cout << "Top element after pop: " << stack.top() << std::endl;
+    stack.pop();
+    std::cout << "Top element after pop: " << stack.top() << std::endl;
+    std::cout << "roy is cool" << std::endl;
     return 0;
+
+
 };
